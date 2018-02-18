@@ -1,0 +1,7 @@
+
+/vendor
+/.idea
+composer.phar
+default.log
+.idea/workspace.xml
+.DS_Store
