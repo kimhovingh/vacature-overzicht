@@ -8,6 +8,9 @@ use Slim\Container;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
+/**
+ * Class AbstractController
+ */
 abstract class AbstractController
 {
     /**

@@ -53,17 +53,18 @@ abstract class AbstractModel {
     }
 
     /**
-     * get the data from the xml file
+     * Get the data from the xml file
      *
      * @param $file
      *
-     * @return \SimpleXMLElement
+     * @return array|\SimpleXMLElement
      */
     public function getXmlData($file)
     {
         if (file_exists($file)) {
             return simplexml_load_file($file);
         }
-    }
 
+        return [];
+    }
 }

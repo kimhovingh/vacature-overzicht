@@ -4,6 +4,9 @@ namespace Src\Models;
 use \Slim\Container;
 use Src\Exceptions\MissingModelException;
 
+/**
+ * Class ModelFactory
+ */
 class ModelFactory
 {
     /**

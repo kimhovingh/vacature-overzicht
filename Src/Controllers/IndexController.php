@@ -5,9 +5,20 @@ use Slim\Http\Request;
 use Slim\Http\Response;
 use Src\Models\Vacancy;
 
+/**
+ * Class IndexController
+ */
 class IndexController extends AbstractController
 {
-
+    /**
+     * Render the index/front page of the application
+     *
+     * @param Request $request
+     * @param Response $response
+     * @param $args
+     *
+     * @return Response
+     */
     public function indexAction(Request $request, Response $response, $args)
     {
         try {
@@ -27,5 +38,4 @@ class IndexController extends AbstractController
         $this->render($request, $response, 'index/index.html.twig', $params);
         return $response;
     }
-
 }

@@ -1,6 +1,9 @@
 <?php
 namespace Src\Models;
 
+/**
+ * Class Vacancy
+ */
 class Vacancy extends AbstractModel
 {
     /**
@@ -68,7 +71,7 @@ class Vacancy extends AbstractModel
     }
 
     /**
-     * get all the vacancies from the xml file
+     * Get all the vacancies from the xml file
      *
      * @return Vacancy[]
      */

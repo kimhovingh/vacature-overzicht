@@ -1,6 +1,6 @@
 <?php
 
-$defaultSettings = [
+return [
     'settings' => [
         'displayErrorDetails' => true,
 
@@ -20,7 +20,3 @@ $defaultSettings = [
         ],
     ],
 ];
-
-return $defaultSettings;
-
-

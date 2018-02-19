@@ -29,7 +29,8 @@ body {
 
 /* job section styling */
 .jobs {
-    padding-top: 50px
+    padding-top: 50px;
+    min-height: 100vh;
 }
 
 .table {
@@ -72,4 +73,3 @@ footer a:hover {
     color: #777;
     text-decoration: none;
 }
-
